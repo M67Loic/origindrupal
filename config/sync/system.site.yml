@@ -1,0 +1,15 @@
+uuid: 33fa9811-2aaa-4f99-bf70-1cec8f15625c
+name: LICENCE
+mail: rjarraud@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
+mail_notification: ''
