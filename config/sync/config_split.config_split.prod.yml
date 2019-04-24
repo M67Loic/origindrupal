@@ -1,0 +1,16 @@
+uuid: 70290a1b-0d21-49a3-8801-4d4275329094
+langcode: en
+status: false
+dependencies: {  }
+id: prod
+label: PROD
+description: ''
+folder: ../config/prod
+module: {  }
+theme: {  }
+blacklist: {  }
+graylist:
+  - system.site
+graylist_dependents: true
+graylist_skip_equal: true
+weight: 0
