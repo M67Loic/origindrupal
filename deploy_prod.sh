@@ -5,6 +5,10 @@ git pull origin master
 composer install
 
 #Mettre à jours la base de données Drupal.
+#drush updb -y
+
+#Export des config de prod.
+drush csex prod -y
 
 #Importer  les configurations.
 drush cim -y
