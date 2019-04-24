@@ -12,7 +12,6 @@ module:
   config: 0
   config_example: 0
   config_filter: 0
-  config_override: 0
   config_split: 0
   config_update: 0
   config_update_ui: 0
@@ -50,7 +49,6 @@ module:
   text: 0
   toolbar: 0
   tour: 0
-  update: 0
   user: 0
   views_ui: 0
   webprofiler: 0
