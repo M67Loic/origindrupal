@@ -18,7 +18,7 @@ vendor\bin\drush csex prod -y
 
 
 # Importer les configurations
-vendor/bin/drush cim -y
+vendor\bin\drush cim -y
 
 #Vidage des caches
-vendor/bin/drush cr
+vendor\bin\drush cr
