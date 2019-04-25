@@ -14,11 +14,11 @@ git commit -m 'Mise à jour des config de prod'
 git push origin master
 
 # Export des configs de prod
-drush csex prod -y
+vendor\bin\drush csex prod -y
 
 
 # Importer les configurations
-drush cim -y
+vendor/bin/drush cim -y
 
 #Vidage des caches
-drush cr
+vendor/bin/drush cr
