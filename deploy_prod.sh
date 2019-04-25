@@ -1,22 +1,24 @@
-#Récuperer les sources
+# Récupérer les sources
 git pull origin master
 
-#Récuperer les librairies.
+# Récupérer les librairies
 composer install
 
-#Mettre à jours la base de données Drupal.
+# Mettre à jour la base de données Drupal
 #drush updb -y
 
-#Ajout des config de prod.
+
+#Ajout des config de pro
 git add config/prod
-git commit -m"Mise a jour des config de la prod."
+git commit -m 'Mise à jour des config de prod'
 git push origin master
 
-#Export des config de prod.
+# Export des configs de prod
 drush csex prod -y
 
-#Importer  les configurations.
+
+# Importer les configurations
 drush cim -y
 
-#Vidage des caches.
+#Vidage des caches
 drush cr
